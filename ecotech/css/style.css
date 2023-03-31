@@ -1,0 +1,164 @@
+/* INÍCIO CSS EDSON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{  
+    background-color: #F1F5D1;
+}
+.cabecalho{
+   padding: 0.7rem;
+   margin-left: 2rem;
+}
+.logo-ecotech{
+    width: 200px;
+    height: 200px;
+}
+/* FIM CSS EDSON */
+
+/* INÍCIO CSS ELIZABETH */
+body{
+    font-family: 'Inter', sans-serif;
+}
+main{
+    background-image: url(../img/bg-img.jpg) ;
+    background-size: cover;
+    background-color: #D7E9B9;
+
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+main .info article{
+    padding: 2rem;
+    text-align: justify;
+}
+.title{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.info{
+    max-height: 600px;
+    max-width: 600px;
+
+    border-radius: 10px;
+
+    background-color:#F1F5D1 ;
+    color: #C47E6A;
+
+    display: flex;
+    justify-content: center; 
+}
+
+.info-text{
+    
+    max-width: 600px;
+    max-height: 600px;
+    
+}
+
+/* FIM CSS ELIZABETH */
+
+/* INÍCIO CSS LUAN */
+main section .for-tamanho div label{
+    font-weight: 600;
+}
+.for-tamanho{
+    height: 600px;
+    width: 600px;
+
+    padding: 2rem;
+    border-radius: 10px;
+
+    background-color:#F1F5D1 ;
+    color: #C47E6A;
+
+    display: flex;
+    justify-content: center; 
+}
+.inputs-for{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-top: 30px;  
+}
+input{
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 500px;
+    padding: 15px;
+}
+
+
+.butt{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+button{
+    
+    padding: 9px;
+    background-color:  #D0E5C5;
+    color: #C47E6A;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    
+}
+
+
+
+.respostas{
+background-color: #D0E5C5;  
+text-align: center;
+width: 500px ;
+}
+/* FIM CSS LUAN */
+
+
+/* INÍCIO CSS MAY */
+footer{
+    background: #9DC08B;
+    padding: 1.7rem;
+    text-align: center;
+
+    color: #498536
+}
+footer article{
+    margin-top: 7px;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p, aside{
+    font-weight: bold;
+}
+footer section div aside{
+    text-align: justify;
+}
+article{
+    padding: 10px;
+    margin-top: 7px;
+}
+aside{
+    color: #498536;
+    font-size: 20px;
+}
+
+footer article div{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+}
+/* FIM CSS MAY */
